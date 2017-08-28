@@ -1,0 +1,54 @@
+###innerText
+* 显示选定元素里的内容
+* 效果图
+
+```
+function clickMe(){
+    alert(document.getElementById('haha').innerText);
+}  
+```
+
+###innerHTML
+* 显示选定元素里的内容和元素HTML标签
+* 效果图
+
+```
+function clickMe(){
+    alert(document.getElementById('haha').innerHTML);
+}  
+```
+
+###outerHTML
+* 显示选定元素本身的HTML标签和标签内的所有内容
+* 效果图
+
+```
+function clickMe(){
+    alert(document.getElementById('haha').outerHTML);
+}  
+```
+
+####HTML代码示例
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+        <ul id="haha">
+            <li>
+                <a onclick="showA(this);">a</a>
+            </li>
+            <li>
+                <a onclick="showA(this);">b</a>
+            </li>
+            <li>
+                <a onclick="showA(this);">c</a>
+            </li>
+        </ul>
+        <button id="clickMe" onclick="clickMe();">点我呀</button>
+    </body>
+</html>  
+```
