@@ -21,7 +21,7 @@
 	<body>
 	<?php if(!isset($a)):?>
 	<nav id="main_category">
-		<h1 class="main-title">Codekissyoung Blog</h1>
+		<h1 class="main-title">Maze's Blog</h1>
 		<?=$category?>
 	</nav>
 	<?php endif; ?>
